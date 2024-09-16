@@ -59,7 +59,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: rgba(226, 226, 226, 0.83);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;

@@ -298,7 +298,8 @@ header .btn-contato button:hover,
 /* Projetos */
 #projetos {
     padding: 50px 0;
-    background-color: #f88d6a;
+    background-color: #fdfdfd;
+    
 }
 
 #projetos .container {
@@ -470,6 +471,7 @@ header .btn-contato button:hover,
     background-color: #242239;
     padding: 40px 20px;
     color: white;
+    border-radius: 30px;
 }
 
 .footer-container {
@@ -559,6 +561,7 @@ header .btn-contato button:hover,
 #especialidades {
     padding: 60px 0;
     background-color: #242239;
+    border-radius: 30px;
 }
 
 #especialidades .container {
@@ -632,7 +635,8 @@ header .btn-contato button:hover,
 }
 #certificados {
     padding: 60px 20px;
-    background-color: #fdfdfd; /* Fundo suave com uma tonalidade clara que harmoniza com a cor base */
+    background-color: #f9ad99;
+    border-radius: 30px; /* Fundo suave com uma tonalidade clara que harmoniza com a cor base */
 }
 
 #certificados .container {

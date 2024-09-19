@@ -171,20 +171,28 @@ header .btn-contato button:hover,
 #apresentacao-profissional .imagem img {
     width: 400px;
     height: auto;
-    border-radius: 8px;
+    border-radius: 20px;
     object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona sombra ao redor da foto */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animação suave no hover */
+}
+
+#apresentacao-profissional .imagem img:hover {
+    transform: translateY(-10px); /* Movimenta a imagem para cima ao hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumenta a sombra ao hover */
 }
 
 #apresentacao-profissional .texto {
     max-width: 600px;
     margin-left: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animação suave no hover */
 }
 
-#apresentacao-profissional .texto h2 {
-    font-size: 32px;
-    color: #434963;
-    margin-bottom: 20px;
+#apresentacao-profissional .texto:hover {
+    transform: translateY(-10px); /* Movimenta o texto para cima ao hover */
+     /* Aumenta a sombra ao hover */
 }
+
 
 #apresentacao-profissional .texto p {
     font-size: 18px;

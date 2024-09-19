@@ -493,11 +493,21 @@ header .btn-contato button:hover,
     flex: 1;
     min-width: 250px;
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza os itens da lista */
+    list-style: none;
+    padding: 0;
+    
+     
 }
 
 .footer-logo {
     max-width: 150px;
+    display: block; /* Garantir que a logo se comporte como um bloco */
+    margin: 0 auto; /* Centralizar horizontalmente */
 }
+
 
 .footer-privacy{
     color: #e8b76b;
@@ -510,14 +520,12 @@ header .btn-contato button:hover,
     text-decoration: underline;
 }
 
-.contact-list,
-.site-map {
+.contact-list{
     list-style: none;
     padding: 0;
 }
 
-.contact-list li,
-.site-map li {
+.contact-list li{
     margin-bottom: 10px;
 }
 

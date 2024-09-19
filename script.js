@@ -43,3 +43,7 @@ next.addEventListener('click', () => {
     }
     updateCarrossel();
 });
+document.querySelector('.menu-hamburger').addEventListener('click', function() {
+    document.querySelector('.dropdown-menu').classList.toggle('active');
+});
+

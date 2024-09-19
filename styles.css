@@ -728,13 +728,13 @@ header .btn-contato button:hover,
 .whatsapp-icon {
     display: inline-block;
     position: fixed;
-    bottom: 20px;
+    bottom: 25px;
     left: 20px;
     z-index: 1000;
 }
 
 .whatsapp-icon img {
-    width: 50px;
+    width: 70px;
     height: auto;
     border-radius: 50%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -743,4 +743,27 @@ header .btn-contato button:hover,
 
 .whatsapp-icon:hover img {
     transform: scale(1.1);
+}
+
+/* Responsivo para dispositivos móveis */
+@media (max-width: 768px) {
+    .whatsapp-icon {
+        bottom: 15px;
+        left: 10px;
+    }
+
+    .whatsapp-icon img {
+        width: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    .whatsapp-icon {
+        bottom: 10px;
+        left: 5px;
+    }
+
+    .whatsapp-icon img {
+        width: 40px;
+    }
 }

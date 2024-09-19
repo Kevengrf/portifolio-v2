@@ -21,6 +21,7 @@ body {
 .interface {
     max-width: 1280px;
     margin: 0 auto;
+    font-family: 'Taviraj', serif;
 }
 
 /* Cabeçalho */
@@ -76,6 +77,7 @@ header .btn-contato button,
     cursor: pointer;
     color: #ffffff;
     transition: background-color 0.3s;
+    font-family: 'Taviraj', serif;
 }
 
 header .btn-contato button:hover,
@@ -115,6 +117,7 @@ header .btn-contato button:hover,
     text-align: center;
     padding: 10px 0;
     margin-top: 10px;
+    font-family: 'Taviraj', serif;
 }
 
 .dropdown-menu ul {
@@ -150,6 +153,7 @@ header .btn-contato button:hover,
 
     .dropdown-menu.active {
         display: block;
+        font-family: 'Taviraj', serif;
     }
 }
 
@@ -177,6 +181,12 @@ header .btn-contato button:hover,
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animação suave no hover */
 }
 
+.elidatitulo {
+    font-family: 'Buda', sans-serif;
+    font-size: 36px;    
+}
+
+
 #apresentacao-profissional .imagem img:hover {
     transform: translateY(-10px); /* Movimenta a imagem para cima ao hover */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumenta a sombra ao hover */
@@ -186,7 +196,9 @@ header .btn-contato button:hover,
     max-width: 600px;
     margin-left: 20px;
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animação suave no hover */
+    font-family: 'Taviraj', serif; /* Aplicando a fonte Taviraj */
 }
+
 
 #apresentacao-profissional .texto:hover {
     transform: translateY(-10px); /* Movimenta o texto para cima ao hover */
@@ -598,6 +610,7 @@ header .btn-contato button:hover,
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    font-family: 'Taviraj', serif;
 }
 
 #especialidades .especialidade-item {

@@ -499,9 +499,10 @@ header .btn-contato button:hover,
     max-width: 150px;
 }
 
-.footer-privacy,
-.footer-address {
+.footer-privacy{
     color: #e8b76b;
+    position: static;
+    text-align: center;
 }
 
 .footer-map {

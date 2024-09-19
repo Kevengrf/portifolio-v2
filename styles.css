@@ -723,3 +723,24 @@ header .btn-contato button:hover,
         max-width: 100%;
     }
 }
+
+
+.whatsapp-icon {
+    display: inline-block;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 1000;
+}
+
+.whatsapp-icon img {
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.whatsapp-icon:hover img {
+    transform: scale(1.1);
+}
